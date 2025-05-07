@@ -9,3 +9,9 @@ variable "agent_name" {
   type        = string
   default     = "my-bedrock-agent2"
 }
+
+variable "component_id" {
+  description = "Component ID for the resources"
+  type        = string
+  default     = "devops"
+}
